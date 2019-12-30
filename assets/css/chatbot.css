@@ -51,6 +51,18 @@ img {
     color: #fff;
 }
 
+.header-icons {
+    float: right;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.header-icons .fa {
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
 .message-inbox {
     overflow: hidden;
     padding-bottom: 15px;
@@ -128,6 +140,13 @@ img {
     float: right;
 }
 
+.message-bottom {
+    width: 100%;
+    display: inline-block;
+    background-color: #007bff;
+    transform: translateY(10px);
+}
+
 .input-group{
     float: right;
     margin-top: 13px;
@@ -135,14 +154,7 @@ img {
     margin-right: 20px;
     outline: none !important;
     border-radius: 20px;
-    width: 91% !important;
-}
-
-.message-bottom {
-    width: 100%;
-    display: inline-block;
-    background-color: #007bff;
-    transform: translateY(10px);
+    width: 60% !important;
 }
 
 .form-control {
@@ -160,8 +172,22 @@ img {
     float: right;
 }
 
+.bottom-icons {
+    float: left;
+    margin-top: 17px;
+    margin-left: 22px;
+    width: 30% !important;
+    color: #fff;
+}
+
+.bottom-icons .fa {
+    color: #fff;
+    cursor: pointer;
+    margin: 5px;
+}
+
 .form-control:focus {
-    border-color: none !important;
-    box-shadow: none !important;
+    border-color: lightskyblue !important;
+    box-shadow: white !important;
     border-radius: 20px;
 }
